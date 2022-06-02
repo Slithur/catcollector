@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/editstyle.css">
+    <%- include('../partials/navbar.ejs', {pageName: 'Edit Review'}) %>
+    <title>Edit Page</title>
+</head>
+<body>
+    <h1>Edit Anime</h1>
+    <form action="/animes/<%=anime._id%>?_method=PUT" method="POST">
+        Name:<input type="text" name="name" value="<%=anime.name%>" /><br />
+        Description: <input type="text" name="description" value="<%=anime.description%>"  /><br />
+        
+        Image URL: <input type="text" name="img" value="<%=anime.img%>" /><br />
+   
+            <a href="/anime"></a><input type ="submit" value ="Submit Changes"/>
+    
+    
+    </form>
+    
+</body>
+</html>

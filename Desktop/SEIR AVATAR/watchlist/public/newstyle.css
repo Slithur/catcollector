@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Yusei+Magic&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+    body {
+
+      background-image: url("https://cdna.artstation.com/p/assets/images/images/047/486/492/original/seerlight-2.gif?1647701346") ; 
+      
+  
+      
+      
+      }
+
+
+    .new{
+display:flex;
+justify-content:center;
+align-items:center;
+padding-top: 20%;
+background-image: url('https://i.pinimg.com/originals/63/f4/5a/63f45a0f9437a5d6fd4183c7c213f3d5.gif');
+background-size: auto;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+padding: 0;
+margin: 0;
+
+ }
+
+
+
+    .page {
+      color: blueviolet;
+      font-size: 2em;
+      position: relative;
+      animation: glow 5000ms linear,
+      move 2000ms;
+      animation-duration: 1s;
+    }
+    
+    @keyframes glow {
+      0% {
+       text-shadow: 0px 0px 8px #fff;
+      }
+      100% {
+        text-shadow: 0 0 3px #fff;
+      }
+    }
+    
+    @keyframes move {
+      0% {left: 100%}
+      50% {left: 0%}
+    }
+
+
+    .name {
+      font-size: 5em;
+        position: relative;
+        animation: glow 5000ms linear,
+        move 2000ms;
+        animation-duration: 1s;
+      }
+      
+      @keyframes glow {
+        0% {
+         text-shadow: 0px 0px 8px #fff;
+        }
+        100% {
+          text-shadow: 0 0 3px #fff;
+        }
+      }
+      
+      @keyframes move {
+        0% {left: 100%}
+        50% {left: 0%}
+      }
+
+      
+    
+

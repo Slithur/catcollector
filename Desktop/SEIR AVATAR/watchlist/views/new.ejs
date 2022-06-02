@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/css/app.css" />
+		<link rel="stylesheet" href="/newstyle.css">
+		<%- include('../partials/navbar.ejs', {pageName: 'Edit Review'}) %>
+	
+	</head>
+	<body>
+	
+		<main class="new">
+			<ul class="page">
+			<h1>Add Show</h1> 
+		
+		 <form class="names" action="/animes" method="POST">
+			<li>Name:<input type="text" name="name" /></li>
+			<li>Description:<input type="text" name="description" /></li>
+			<li>Image Url:<input type="text" name="img" /></li>
+				<input class="add" type="submit" value="Add Anime" />
+			</form>
+		</ul>
+		</main>
+	
+	</body>
+</html>

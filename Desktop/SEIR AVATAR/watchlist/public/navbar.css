@@ -1,0 +1,50 @@
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+  }
+  
+
+  .nav-links {
+background-image:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6005ee23-9326-4cd5-8e0e-0f0416990930/ddr81th-606b93f0-571f-4c72-8e25-4643026dd6a3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYwMDVlZTIzLTkzMjYtNGNkNS04ZTBlLTBmMDQxNjk5MDkzMFwvZGRyODF0aC02MDZiOTNmMC01NzFmLTRjNzItOGUyNS00NjQzMDI2ZGQ2YTMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.S6qWhgjOrJxBtUX9K4_5VRQtGqyiDHGDOvailHb7_EY');
+background-size: auto;
+background-repeat: no-repeat;
+background-position: -2% 85%;
+animation: left;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    padding: 10px 60px;
+  }
+  
+  .nav-links li a {
+    transition: all 0.3s ease 0s;
+    
+  }
+  
+  .nav-links li a:hover {
+    color: white;
+    
+  }
+  
+  button {
+    padding: 9px 25px;
+    background-color: #0088a9;
+    opacity: 1;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: white;
+    opacity: 0.8;
+  }
+
+  
+

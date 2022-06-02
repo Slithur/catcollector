@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/css/app.css" />
+        <link rel="stylesheet" href="/showstyle.css">
+		<%- include('../partials/navbar.ejs', {pageName: 'Edit Review'}) %>
+		<title>Express Blog</title>
+	</head>
+	<body>
+		<nav>
+		
+		<header>
+			<h1 class="name"> <%=Anime.name %></h1>
+			
+		</header>
+		<main>
+			
+			<ul class="poster">
+				 <img class="pic" src=" <%= Anime.img %>" >
+				<li class="description"> <%= Anime.description %></li>
+			</ul>
+			<section class="delete">
+				<form action="/animes/<%= Anime._id %>?_method=DELETE" method="POST">
+					<input type="submit" value="Delete Anime" />
+				</form>
+			</section>
+			<section class="edit">
+				<a href="/animes/<%= Anime._id %>/edit">Edit</a>
+			</section>
+		</main>
+	</body>
+</html>

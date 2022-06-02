@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/app.css" />
+        <link rel="stylesheet" href="./style.css">
+		<%- include('../partials/navbar.ejs', {pageName: 'Edit Review'}) %>
+		<title>Index page</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				
+			</nav>
+		</header>
+		<h1 id="Title">Anime</h1>
+		<main>
+			<h2 id="shows">List of Shows</h2> 
+			<div id="container">
+				<% for (let i = 0; i < animes.length; i++ ) { %>
+				<div>
+					<img class="poster" src="<%= animes[i].img %>" alt="pic" /> </br>
+					<a class="name" href="/animes/<%= animes[i]._id %> "><%=animes[i].name %> </a> 
+					
+				</div>
+				<% } %>
+			</div>
+		</main>
+	</body>
+</html>
