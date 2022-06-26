@@ -1,0 +1,532 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/002/307/811/original/watercolor-pastel-background-hand-painted-aquarelle-colorful-stains-on-paper-vector.jpg');
+  background-repeat: no-repeat;
+  background-color: #F4F4F4;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+
+
+}
+
+body {
+  background-color: #F4F4F4;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ________________Navbar Component Styling________________ */
+.NavBar {
+  background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/11/pastel-background-goo-1250x834.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #654062;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLink {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.greeting-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* ________________Footer Component Styling________________ */
+.footer {
+  background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/11/pastel-background-goo-1250x834.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #654062;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* ________________Link Styling________________ */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a {
+  color: white;
+}
+
+/* ________________Home Page Styling________________ */
+.Home {
+  padding: 10% 20% 10% 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0% 10% 0% 10%;
+  border-radius: 30px;
+  color: white;
+  font-size: 1em;
+
+}
+
+.seperate {
+  cursor: pointer;
+
+  padding: 5%;
+
+}
+
+.bucketItem {
+  position: relative;
+  background-color: pink;
+  text-align: center;
+  object-fit: scale-down;
+
+}
+
+.show{
+  text-align: center;
+  color: black;
+  border: 5px solid #00A4BD;
+  background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/11/pastel-background-goo-1250x834.jpg");
+}
+
+.showimage{
+
+  width:80%;
+  max-height: 400px;
+ 
+
+}
+
+
+
+.lists {
+position: absolute;
+top: 27%;
+left: 18%;
+overflow-y:auto
+
+  
+
+
+}
+
+
+.bucket {
+  position: absolute;
+  width: 18%;
+  top: 11%;
+  left: 14%;
+  color: orange;
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.main {
+  position: absolute;
+  background-color: rgb(255, 166, 0);
+  width: 60%;
+  left: 35%;
+  height: 65%;
+  top: 18%;
+
+
+}
+
+.neonText {
+  font-size: 2em;
+  color: rgb(5, 0, 0);
+}
+
+.addBucket {
+  background-color: aqua;
+}
+
+input {
+  box-sizing: border-box;
+  height: 39px;
+  width: 426px;
+  border: 1px solid #E6E6E6;
+  border-radius: 20px;
+  text-align: center;
+}
+
+textarea {
+  box-sizing: border-box;
+  height: 39px;
+  width: 426px;
+  border: 1px solid #E6E6E6;
+  border-radius: 20px;
+  text-align: center;
+}
+
+input[type=submit] {
+  position: absolute;
+  background-color: #0491aa;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+  left: 43%;
+}
+
+button {
+  background-color: #0491aa;
+  border: none;
+  color: white;
+
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+
+/* ________________About Page Styling________________ */
+.Picture {
+  position: relative;
+  top: -5%;
+  display: flex;
+  justify-content: space-evenly;
+
+
+  object-fit: scale-down;
+}
+
+.Mahamed {
+  background-image: url("https://c.tenor.com/eSr5QehBnWkAAAAC/vaporwave-palm-tree.gif");
+  border: 5px;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  background-color: aqua;
+
+  width: 200px;
+  height: 200px;
+
+  object-fit: scale-down;
+
+}
+
+.Sean {
+  background-image: url("https://c.tenor.com/eSr5QehBnWkAAAAC/vaporwave-palm-tree.gif");
+  background-color: aqua;
+  border: 5px;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  border-color: aqua;
+
+
+  width: 200px;
+  height: 200px;
+
+  object-fit: scale-down;
+}
+
+.David {
+  background-image: url("https://c.tenor.com/eSr5QehBnWkAAAAC/vaporwave-palm-tree.gif");
+  background-color: white;
+  border-color: aqua;
+  border: 5px;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+
+  object-fit: scale-down;
+}
+
+.Kim {
+  background-image: url("https://c.tenor.com/eSr5QehBnWkAAAAC/vaporwave-palm-tree.gif");
+  background-color: white;
+  border-color: aqua;
+  border: 5px;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+
+  object-fit: scale-down;
+}
+
+.me {
+  margin: 5%;
+  width: 300px;
+  height: 300px;
+
+  object-fit: scale-down;
+  text-align: center;
+}
+
+.s {
+  margin: 5%;
+  width: 300px;
+  height: 300px;
+
+  object-fit: scale-down;
+  text-align: center;
+
+}
+
+.d {
+  margin: 5%;
+  width: 300px;
+  height: 300px;
+
+  object-fit: scale-down;
+  text-align: center;
+}
+
+.k {
+  margin: 5%;
+  width: 300px;
+  height: 300px;
+
+  object-fit: scale-down;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+
+.git {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.linked {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+
+
+/* ________________Mobile friendly_______________ */
+@media only screen and (max-width: 500px) {
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+
+  .Picture {
+    position: absolute;
+    top: 9%;
+    display: flex;
+    flex-direction: column;
+
+
+  }
+
+  .Mahamed {
+    background-image: url("https://c.tenor.com/eSr5QehBnWkAAAAC/vaporwave-palm-tree.gif");
+    border: 5px;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+
+    width: 100px;
+    height: 100px;
+
+    object-fit: scale-down;
+
+  }
+
+  .Sean {
+    background-image: url("https://c.tenor.com/eSr5QehBnWkAAAAC/vaporwave-palm-tree.gif");
+    background-color: aqua;
+    border: 5px;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-color: aqua;
+
+
+    width: 100px;
+    height: 100px;
+
+    object-fit: scale-down;
+  }
+
+  .David {
+    background-image: url("https://c.tenor.com/eSr5QehBnWkAAAAC/vaporwave-palm-tree.gif");
+    background-color: white;
+    border-color: aqua;
+    border: 5px;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+    object-fit: scale-down;
+  }
+
+  .Kim {
+    background-image: url("https://c.tenor.com/eSr5QehBnWkAAAAC/vaporwave-palm-tree.gif");
+    background-color: white;
+    border-color: aqua;
+    border: 5px;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+    object-fit: scale-down;
+  }
+
+  .me {
+    margin: 5%;
+    width: 250px;
+    height: 250px;
+
+    object-fit: scale-down;
+    text-align: center;
+  }
+
+  .s {
+    margin: 5%;
+    width: 250px;
+    height: 250px;
+
+    object-fit: scale-down;
+    text-align: center;
+
+  }
+
+  .d {
+    margin: 5%;
+    width: 250px;
+    height: 250px;
+
+    object-fit: scale-down;
+    text-align: center;
+  }
+
+  .k {
+    margin: 5%;
+    width: 250px;
+    height: 250px;
+
+    object-fit: scale-down;
+    text-align: center;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+
+
+  }
+
+  .git {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+  }
+
+  .linked {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-color: #F4F4F4;
+    background-size: cover;
+    height: 200vh;
+  }
+
+  .footer {
+    background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/11/pastel-background-goo-1250x834.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #654062;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+  }
+}
